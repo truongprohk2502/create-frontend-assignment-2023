@@ -1,0 +1,44 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  border-style: solid;
+}
+
+.largeSpinner {
+  width: 4rem;
+  height: 4rem;
+  border-width: 0.5rem;
+}
+
+.smallSpinner {
+  width: 1rem;
+  height: 1rem;
+  border-width: 0.2rem;
+}
+
+.blackSpinner {
+  border-color: black;
+  border-top-color: white;
+}
+
+.whiteSpinner {
+  border-color: white;
+  border-top-color: black;
+}

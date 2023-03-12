@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.container input {
+  height: 2rem;
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+}

@@ -24,12 +24,10 @@ export default function handler(
 
   const returnData = userData.slice(offset, limit + offset);
 
-  res
-    .status(200)
-    .json({
-      total: userData.length,
-      limit: limit,
-      offset: offset,
-      data: returnData,
-    });
+  res.status(200).json({
+    total: userData.length,
+    limit: limit,
+    offset: offset,
+    data: returnData,
+  });
 }

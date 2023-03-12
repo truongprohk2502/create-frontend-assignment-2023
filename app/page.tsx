@@ -1,3 +1,4 @@
+import LinkButton from "@/components/LinkButton";
 import { Inter } from "@next/font/google";
 import styles from "./page.module.css";
 
@@ -9,6 +10,9 @@ export default function Home() {
       <div className={styles.center}>
         <h1 className={inter.className}>Welcome</h1>
         <p className={inter.className}>Show us what you got</p>
+      </div>
+      <div>
+        <LinkButton href="/login">Login</LinkButton>
       </div>
     </main>
   );

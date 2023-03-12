@@ -1,0 +1,71 @@
+.mainContainer {
+  max-width: 100vw;
+  overflow: auto;
+}
+
+.container {
+  display: flex;
+  list-style-type: none;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.pageButton {
+  cursor: pointer;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px 1px 1px 0;
+}
+
+.pageButtonLink {
+  padding: 0.5rem 0.8rem;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.previousButton {
+  cursor: pointer;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px 1px 1px 1px;
+  white-space: nowrap;
+}
+
+.nextButton {
+  cursor: pointer;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px 1px 1px 0;
+  white-space: nowrap;
+}
+
+.pageButton:hover,
+.previousButton:hover,
+.nextButton:hover {
+  background-color: rgb(34, 34, 34);
+}
+
+.activeButton {
+  background-color: rgb(76, 45, 90);
+}
+
+.activeButton:hover {
+  background-color: rgb(76, 45, 90);
+}
+
+.disabledButton {
+  color: grey;
+  cursor: default;
+}
+
+.disabledButton:hover {
+  background-color: black;
+}
+
+.breakLine {
+  padding: 0.5rem 0.8rem;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px 1px 1px 0;
+}
